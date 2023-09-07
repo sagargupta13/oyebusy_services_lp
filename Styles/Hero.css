@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
      /* Add a semi-transparent overlay */
     color: #fff; /* Text color for the overlay */
   }
@@ -45,9 +45,34 @@
   .rightContent {
     flex: 1;
     padding-left: 10px; 
+   
+  }
+  .rightContent h1{
+    margin-bottom: 30px;
+    font-size: 47px;
+    font-family: sans-serif;
   }
 
-  .rightContent h1{
-    
+  .rightContent ul li{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rightContent ul li h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
   }
   
+  .rightContent ul li h4{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    font-weight: 100;
+  }
+  
+  .hero-icon{
+    font-size: 30px;
+    margin-right: 20px;
+   
+  }

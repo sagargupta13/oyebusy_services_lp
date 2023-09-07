@@ -18,16 +18,22 @@ const Hero = () => {
           <div className="rightContent">
             <h1>Book your professional electrician service.</h1>
             <ul>
-              <li>
-                <FontAwesomeIcon icon={faCalendar} />
-                <h3>1. GET APPOINTMENT</h3>
-                <h3>Get a fast and accurate quote for your electrician needs with just a few clicks.</h3>
+              <li >
+                <FontAwesomeIcon icon={faCalendar} className="hero-icon"/>
+                <div><h3>1. GET APPOINTMENT</h3>
+                <h4>Get a fast and accurate quote for your electrician needs with just a few clicks.</h4></div>
               </li>
               <li>
-                <FontAwesomeIcon icon={faLock} />
+                <FontAwesomeIcon icon={faLock} className="hero-icon"/>
+                <div><h3>2. CONFIRM BOOKING</h3>
+                <h4>
+2. CONFIRM BOOKING
+Confirm your appointment and select a suitable time for our skilled electricians to come to your place.</h4></div>
               </li>
               <li>
-                <FontAwesomeIcon icon={faHome} />
+                <FontAwesomeIcon icon={faHome} className="hero-icon"/>
+                <div><h3>3. WE’LL FIX IT</h3>
+                <h4>Sit back and relax while our expert electricians take care of your needs. Our skilled team will ensure that your electrical systems are working flawlessly.</h4></div>
               </li>
             </ul>
           </div>
