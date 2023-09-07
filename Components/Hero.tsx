@@ -12,8 +12,8 @@ const Hero = () => {
       >
         <div className="innerContainer">
           <div className="leftContent">
-            <h1>Your Left Content</h1>
-            <p>Your left content description here.</p>
+            <h1>Form goes here</h1>
+           
           </div>
           <div className="rightContent">
             <h1>Book your professional electrician service.</h1>
