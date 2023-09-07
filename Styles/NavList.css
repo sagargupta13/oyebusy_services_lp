@@ -1,0 +1,42 @@
+.nav-list{
+    background-color: #FF9D00;
+    
+    
+}
+
+.nav-container {
+    /* width: 100%; */
+    padding: 1.6vh 13vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-list-left ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+list-style-type: none;
+
+  }
+
+  .nav-list-left a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+  }
+
+  .nav-list-left  a :hover{
+     color: black;
+
+  }
+
+ .nav-list-right a {
+text-decoration: none;
+list-style-type: none;
+color: white;
+
+ } 

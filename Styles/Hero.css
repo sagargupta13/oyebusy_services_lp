@@ -1,0 +1,53 @@
+/* HeroSection.module.css */
+
+/* Hero container with left-right padding */
+.heroContainer {
+    
+    position: relative; /* Required for absolute positioning */
+  }
+  
+  /* Background image styles */
+  .backgroundImage {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh; /* Set the height to cover the viewport */
+    position: relative; /* Required for absolute positioning */
+  }
+  
+  /* Inner container with top-bottom padding */
+  .innerContainer {
+    
+    padding: 100px 35px;
+    margin: 0 10vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+     /* Add a semi-transparent overlay */
+    color: #fff; /* Text color for the overlay */
+  }
+  
+  
+  .leftContent {
+    flex: 1;
+    padding-right: 10px; 
+  }
+  
+
+  .rightContent {
+    flex: 1;
+    padding-left: 10px; 
+  }
+
+  .rightContent h1{
+    
+  }
+  
