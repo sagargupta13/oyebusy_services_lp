@@ -2,77 +2,133 @@
 
 /* Hero container with left-right padding */
 .heroContainer {
-    
-    position: relative; /* Required for absolute positioning */
-  }
-  
-  /* Background image styles */
-  .backgroundImage {
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    height: 100vh; /* Set the height to cover the viewport */
-    position: relative; /* Required for absolute positioning */
-  }
-  
-  /* Inner container with top-bottom padding */
-  .innerContainer {
-    
-    padding: 100px 35px;
-    margin: 0 10vw;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    /* background-color: rgba(0, 0, 0, 0.5); */
-     /* Add a semi-transparent overlay */
-    color: #fff; /* Text color for the overlay */
-  }
-  
-  
-  .leftContent {
-    flex: 1;
-    padding-right: 10px; 
-  }
-  
+  position: relative; /* Required for absolute positioning */
+}
 
-  .rightContent {
-    flex: 1;
-    padding-left: 10px; 
+/* Background image styles */
+.backgroundImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh; /* Set the height to cover the viewport */
+  position: relative; /* Required for absolute positioning */
+}
+
+/* Inner container with top-bottom padding */
+.innerContainer {
+  padding: 100px 35px;
+  margin: 0 10vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* Add a semi-transparent overlay */
+  color: #fff; /* Text color for the overlay */
+}
+
+.leftContent {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.rightContent {
+  flex: 1;
+  padding-left: 10px;
+}
+.rightContent h1 {
+  margin-bottom: 30px;
+  font-size: 47px;
+  font-family: sans-serif;
+}
+
+.rightContent ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightContent ul li h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.rightContent ul li h4 {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 24px;
+  font-weight: 100;
+}
+
+.hero-icon {
+  font-size: 34px;
+  margin-right: 20px;
+}
+
+.hero-label{
+   background-color: #ff9b4f;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
    
-  }
-  .rightContent h1{
-    margin-bottom: 30px;
-    font-size: 47px;
-    font-family: sans-serif;
-  }
 
-  .rightContent ul li{
-    display: flex;
-    flex-direction: row;
-  }
+}
+.hero-label p{
+    color: white;
+    
+    font-size: 32px;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+}
 
-  .rightContent ul li h3{
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 10px;
-  }
+.hero-details{
+  display: flex;
+  flex-direction: column;
   
-  .rightContent ul li h4{
-    font-size: 18px;
-    font-family: sans-serif;
-    margin-bottom: 24px;
-    font-weight: 100;
-  }
+  justify-content: center;
+ 
+}
+.hero-details h4{
+ margin-top: 70px;
+  margin-bottom: 40px;
+   font-weight: 100;
+   font-size: 20px;
+  text-align: center;
+}
+
+.hero-details p{
+  padding: 0px 150px;
   
-  .hero-icon{
-    font-size: 30px;
-    margin-right: 20px;
-   
-  }
+  
+}
+
+.hero-details h2{
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 30px;
+  text-align: left;
+  padding: 0px 150px;
+}
+.hero-details ol{
+  margin-top: 30px;
+ 
+  
+}
+.hero-details ol li {
+  text-align: left;
+  
+  list-style: disc;
+  padding: 10px 180px;
+  font-size: 16px;
+  font-weight: 400;
+
+}
