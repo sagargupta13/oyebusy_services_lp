@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import "../Styles/Services.css";
+import CustomButton from "./CustomButton";
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,6 +9,8 @@ import { icon } from "@fortawesome/fontawesome-svg-core";
 import CustomCard from "./CustomcardRight";
 import CustomCard2 from "./CustomcardLeft";
 const Services = () => {
+  const handleScroll = () => {};
+
   const cardData1 = {
     imageSrc: "/plumber-repair-experienced-atten.jpg",
     title: "Leaky Basin / Sink Repair",
@@ -53,16 +56,33 @@ const Services = () => {
     buttonText: "Learn More",
   };
   return (
-    <div className="service">
-      <h4>- WHAT WE DO -</h4>
-      <h2>Check out some of our professional services!</h2>
+    <>
+      <div className="service">
+        <h4>- WHAT WE DO -</h4>
+        <h2>Check out some of our professional services!</h2>
 
-      <CustomCard {...cardData1} />
-      <CustomCard2 {...cardData2} />
-      <CustomCard {...cardData3} />
-      <CustomCard2 {...cardData4} />
-      <CustomCard {...cardData5} />
-    </div>
+        <CustomCard {...cardData1} />
+        <CustomCard2 {...cardData2} />
+        <CustomCard {...cardData3} />
+        <CustomCard2 {...cardData4} />
+        <CustomCard {...cardData5} />
+      </div>
+      <div
+        className="service-label"
+        style={{
+          backgroundImage: 'url("/plumber-repair-experienced-atten.jpg")',
+        }}
+      >
+        <div className="label-content">
+          <h4>Over 1500+ Home Owners are already using Oyebusy</h4>
+          <CustomButton
+            title="Learn More"
+            containerStyles="button-styles"
+            handleClick={handleScroll}
+          />
+        </div>
+      </div>
+    </>
   );
 };
 

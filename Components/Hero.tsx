@@ -3,6 +3,7 @@ import React from "react";
 import "../Styles/Hero.css";
 import { faCalendar, faLock, faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ServiceForm from "./ServiceForm";
 const Hero = () => {
   return (
     <div className="heroContainer">
@@ -12,7 +13,7 @@ const Hero = () => {
       >
         <div className="innerContainer">
           <div className="leftContent">
-            <h1>Form goes here</h1>
+            <ServiceForm/>
           </div>
           <div className="rightContent">
             <h1>Book your professional electrician service.</h1>
