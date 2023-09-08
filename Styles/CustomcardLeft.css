@@ -1,0 +1,15 @@
+/* components/CustomCard.module.css */
+.custom-card2 {
+    display: flex;
+    flex-direction: row-reverse; /* Always display items in a column for mobile */
+ justify-content:space-between;
+    padding: 2%; /* Use relative padding for responsiveness */
+    /* border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    max-width: 100%; /* Ensure the card doesn't exceed the viewport width */
+    margin-top: 50px;
+    /* background-color: bisque; */
+  }
+  
+  
